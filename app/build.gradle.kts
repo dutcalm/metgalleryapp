@@ -40,6 +40,16 @@ android {
 }
 
 dependencies {
+    implementation(libs.retrofit.v2110)
+    implementation(libs.coil)
+    implementation(libs.androidx.compose.material3.material3.vversion)
+    implementation(libs.androidx.foundation)
+    implementation(libs.ui)
+    implementation(libs.ui.tooling.preview)
+    implementation(libs.androidx.runtime.livedata)
+    implementation(libs.material3)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.coil.compose)
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
     implementation(libs.gson)
